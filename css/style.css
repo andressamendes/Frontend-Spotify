@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css?family=Lexend+Tera&display=swap");
+
+body h1 {
+  position: relative;
+  font-family: 'Lexend Tera', sans-serif;
+  text-transform: lowercase;
+  font-size: 10vw;
+}
+body h1::before {
+  color: #FDD835;
+  -webkit-animation: text 1s linear infinite;
+          animation: text 1s linear infinite;
+  content: "Música";
+  -webkit-animation: text 2s ease infinite;
+          animation: text 2s ease infinite;
+  text-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+@-webkit-keyframes text {
+  25% {
+    content: "Música";
+  }
+  50% {
+    content: "Para";
+  }
+  75% {
+    content: "todos.";
+  }
+}
+
+
+
+body {
+        font-family: 'Lexend Tera', sans-serif;
+        color: #eee;
+        text-align: center;
+    }
+    
+    a {
+        color: #ccc;
+    }
+    
+    /*-------------------------------------*/
+    
+    .cf:before, .cf:after{
+      content:"";
+      display:table;
+    }
+    
+    .cf:after{
+      clear:both;
+    }
+
+    .cf{
+      zoom:1;
+    }
+
+    /*-------------------------------------*/	
+    
+    .form-wrapper {
+        width: 700px;
+        padding: 20px;
+        margin: 50px auto 50px auto;
+        background: #444;
+        background: rgba(0,0,0,.2);
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        -moz-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+        -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+        box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+    }
+    
+    .form-wrapper input {
+        width: 500px;
+        height: 45px;
+        padding: 5px 5px;
+        float: left;    
+        font: bold 15px 'Lexend Tera', sans-serif;
+        border: 0;
+        background: #eee;
+        -moz-border-radius: 3px 0 0 3px;
+        -webkit-border-radius: 3px 0 0 3px;
+        border-radius: 3px 0 0 3px;      
+    }
+    
+    .form-wrapper input:focus {
+        outline: 0;
+        background: #fff;
+        -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    }
+    
+    .form-wrapper input::-webkit-input-placeholder {
+       color: #999;
+       font-weight: normal;
+       font-style: italic;
+    }
+    
+    .form-wrapper input:-moz-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }
+    
+    .form-wrapper input:-ms-input-placeholder {
+        color: #999;
+        font-weight: normal;
+        font-style: italic;
+    }    
+    
+    .form-wrapper button {
+		overflow: visible;
+        position: relative;
+        float: right;
+        border: 0;
+        text-align:center;
+        padding: 0px 5px;
+        cursor: pointer;
+        height: 45px;
+        width: 110px;
+        font: bold 15px/40px 'Lexend Tera', sans-serif;
+        color: #fff;
+        text-transform: uppercase;
+        background: #6f42c1;
+        -moz-border-radius: 0 3px 3px 0;
+        -webkit-border-radius: 0 3px 3px 0;
+        border-radius: 0 3px 3px 0;      
+        text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+    }   
+      
+    .form-wrapper button:hover{		
+        background-color: blueviolet;
+    }	
+      
+    .form-wrapper button:active,
+    .form-wrapper button:focus{   
+        background: #6f42c1;    
+    }
+    
+  
+    
+    .form-wrapper button:hover:before{
+        border-right-color: #6f42c1;
+    }
+    
+    .form-wrapper button:focus:before{
+        border-right-color: #6f42c1;
+    }    
+    
+    .form-wrapper button::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+
+.byline p{
+  text-align:center;
+  color:#c6c6c6;
+  font: bold 15px/40px 'Lexend Tera', sans-serif;
+  text-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+.byline p a{
+  color:#6f42c1;
+  text-align:center;
+  text-decoration:none;
+}
+
+
+ /* SIGN UP */
+
+
+.wrap {
+   text-align: center;
+    position:relative;
+      width: 800px;
+      margin: 20px auto;
+      text-align: left;
+      color: #989A8F;
+}
+
+.table {
+     
+  background-color: #ffffff;
+  height: 400px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+ul li {
+    position: relative;
+  float: left;
+  width: 200px;
+  text-align: center;
+  border-left: 0px solid #DDDCD8;
+    margin-left: 40px;
+}
+
+.top {
+  background-color: #EAE9E4;
+  height: 75px;
+}
+.top h1 {
+  padding-top: 20px;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  font-size: 20px;
+  color: #fff;
+  line-height: 60px;
+  text-align: center;
+  background: #989A8F;
+  margin-left: 70px;
+  margin-top: 10px;
+}
+
+.bottom {
+  margin-top: 50px;
+}
+.bottom p {
+  font-size: 13px;
+  font-family: 'Lexend Tera', sans-serif;
+  padding: 5px;
+}
+.bottom p span {
+  font-weight: bold;
+}
+
+.sign {
+  margin-top: 50px;
+}
+.sign .button {
+  border: 1px solid #989A8F;
+  padding: 10px 40px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  color: #989A8F;
+  font-size: 14px;
+  text-decoration: none;
+  vertical-align: middle;
+  font-size: 17px;
+}
+
+.purple {
+  background-color: #5D4660;
+}
+
+.white {
+  color: #FFFFFF;
+}
+
+.pink {
+  background-color: #BC9B94;
+}
+
+ /* END SIGN UP */
+    

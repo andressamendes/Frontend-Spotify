@@ -8585,6 +8585,11 @@ button.bg-dark:focus {
   margin-top: 3rem !important;
 }
 
+.mt-7,
+.my-7 {
+  margin-top: 7rem !important;
+}
+
 .mr-5,
 .mx-5 {
   margin-right: 3rem !important;

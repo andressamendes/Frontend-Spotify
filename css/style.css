@@ -180,8 +180,8 @@ body {
       color: #989A8F;
 }
 
-.table {
-     
+.table {  
+  
   background-color: #ffffff;
   height: 400px;
   width: 100%;
@@ -189,32 +189,25 @@ body {
 }
 
 ul li {
-    position: relative;
+    
+  position: relative;
   float: left;
   width: 200px;
   text-align: center;
   border-left: 0px solid #DDDCD8;
-    margin-left: 40px;
-}
-
-.top {
-  background-color: #EAE9E4;
-  height: 75px;
-}
-.top h1 {
-  padding-top: 20px;
+  margin-left: 40px;
 }
 
 .circle {
-  width: 60px;
-  height: 60px;
-  border-radius: 60px;
-  font-size: 20px;
+  border-radius: 10px;
+  width: 180px;
+  height: 75px;
+  font-size: 25px;
   color: #fff;
   line-height: 60px;
   text-align: center;
-  background: #989A8F;
-  margin-left: 70px;
+  background-color: purple;
+  margin-left: 15px;
   margin-top: 10px;
 }
 
@@ -231,7 +224,7 @@ ul li {
 }
 
 .sign {
-  margin-top: 50px;
+  margin-top: 30px ;
 }
 .sign .button {
   border: 1px solid #989A8F;
@@ -246,17 +239,6 @@ ul li {
   font-size: 17px;
 }
 
-.purple {
-  background-color: #5D4660;
-}
-
-.white {
-  color: #FFFFFF;
-}
-
-.pink {
-  background-color: #BC9B94;
-}
 
  /* END SIGN UP */
     
